@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franz Kryztian M. Catuday - BSIT Graduate Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; line-height: 1.6; }
+        header { background-color: #333; color: white; padding: 2rem; text-align: center; }
+        nav { background-color: #4CAF50; padding: 1rem; }
+        nav ul { list-style: none; padding: 0; display: flex; justify-content: center; gap: 2rem; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        section { padding: 3rem; max-width: 1200px; margin: 0 auto; }
+        .hero { background-image: url('https://via.placeholder.com/1200x400?text=BSIT+Graduate+Portfolio'); background-size: cover; height: 400px; display: flex; align-items: center; justify-content: center; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.7); }
+        .skills { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
+        .skill { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; width: 150px; }
+        .education { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 2rem; }
+        .interests { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+        .interest { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; }
+        form { display: grid; gap: 1rem; max-width: 500px; margin: 0 auto; }
+        input, textarea { padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px; }
+        button { background-color: #4CAF50; color: white; border: none; padding: 0.75rem; cursor: pointer; border-radius: 4px; }
+        button:hover { background-color: #45a049; }
+        footer { background-color: #333; color: white; text-align: center; padding: 1rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Franz's Portfolio</h1>
+        <p>Recent BSIT Graduate | Eager to Build and Innovate</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="hero" id="home">
+        <div>
+            <h2>Welcome to My Portfolio</h2>
+            <p>Fresh out of university with a passion for technology and a drive to learn.</p>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Franz Kryztian M. Catuday, a recent graduate with a Bachelor of Science in Information Technology (BSIT). I'm excited to apply my knowledge in programming, systems, and problem-solving to real-world challenges. While I don't have professional projects yet, I'm committed to continuous learning and contributing to innovative teams. Let's connect and explore opportunities!</p>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education">
+            <h3>Bachelor of Science in Information Technology (BSIT)</h3>
+            <p><strong>University Name:</strong> Polytechnic University of the Philippines - Biñan Campus</p>
+            <p><strong>Graduation Year:</strong> 2025</p>
+            <p><strong>Key Courses:</strong> Programming Fundamentals, Database Management, Web Development, Networking.</p>
+            <p><strong>GPA:</strong> 1.5</p>
+            <p>During my studies, I gained a solid foundation in IT principles and hands-on experience through labs and group projects. I'm eager to build on this with practical applications.</p>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">SQL Databases</div>
+            <div class="skill">Basic Networking</div>
+            <div class="skill">Problem-Solving</div>
+            <div class="skill">Team Collaboration</div>
+        </div>
+    </section>
+    <section id="interests">
+        <h2>Interests & Future Goals</h2>
+        <div class="interests">
+            <div class="interest">
+                <h3>Web Development</h3>
+                <p>Excited to build responsive websites and learn frameworks like React.</p>
+            </div>
+            <div class="interest">
+                <h3>Cybersecurity</h3>
+                <p>Interested in protecting systems and data in an increasingly digital world.</p>
+            </div>
+            <div class="interest">
+                <h3>AI & Machine Learning</h3>
+                <p>Eager to explore how technology can solve real problems.</p>
+            </div>
+            <div class="interest">
+                <h3>Open-Source Contributions</h3>
+                <p>Looking to contribute to projects and learn from the community.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>I'm open to internships, entry-level roles, or networking. Reach out!</p>
+        <form onsubmit="alert('Message sent!'); return false;">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Email: franzcatuday@gmail.com| LinkedIn: franz catuday | Phone: 09154708122</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 franz catuday. Built with passion and potential.</p>
+    </footer>
+</body>
+</html>
