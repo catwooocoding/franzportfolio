@@ -1,50 +1,76 @@
 /* General Styles */
 body {
+
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color:black ;
     color: #333;
     line-height: 1.6;
+    justify-content: center;
+}
+h1{
+    color:white;
+    font-family: "press Start 2P";
+}
+h2{
+    font-family: "press Start 2P";
+    text-align: center;
+    color:white
+}
+P{
+    font-family: sans-serif;
+
 }
 
 /* Header */
 header {
-    background-color: #333;
-    color: white;
-    padding: 2rem;
-    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    padding: 5px;
+    text-align:center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#about{
+   
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    padding: 7rem;
+    text-align:center;
+
+
 }
 
 /* Navigation */
 nav {
-    background-color: #4CAF50;
-    padding: 1rem;
+    background-color:#4596ff;
+    padding: 5px;
+    position:sticky;
+    top: 0px;
 }
 
 nav ul {
-    list-style: none;
+    list-style:none;
     padding: 0;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 nav a {
     color: white;
-    text-decoration: none;
+    text-decoration:none;
     font-weight: bold;
     transition: text-decoration 0.3s;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    text-decoration:underline;
 }
 
 /* Sections */
 section {
-    padding: 3rem;
+    padding: 4rem;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -65,7 +91,7 @@ section {
 
 /* About, Education, etc. */
 .education {
-    background: white;
+    background:wheat;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -73,21 +99,24 @@ section {
 }
 
 /* Skills */
-.skills {
+#skills { 
     display: flex;
     flex-wrap: wrap;
+    padding:5rem;
     gap: 1rem;
     justify-content: center;
-}
+    align-items: center;
 
+     }
 .skill {
-    background: white;
+    background: wheat;
     padding: 1rem;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    box-shadow: 0 2px 5px rgba(28, 206, 230, 0.1);
+    text-align:center;
     width: 150px;
     transition: transform 0.3s;
+    
 }
 
 .skill:hover {
@@ -102,7 +131,7 @@ section {
 }
 
 .interest {
-    background: white;
+    background: wheat;
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -114,35 +143,6 @@ section {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Contact Form */
-form {
-    display: grid;
-    gap: 1rem;
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-input, textarea {
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1rem;
-}
-
-button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 0.75rem;
-    cursor: pointer;
-    border-radius: 4px;
-    font-size: 1rem;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #45a049;
-}
 
 /* Footer */
 footer {
@@ -166,4 +166,8 @@ footer {
     section {
         padding: 2rem 1rem;
     }
+}
+#contact{
+    text-align: center;
+    color:white;
 }
